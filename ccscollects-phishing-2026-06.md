@@ -446,7 +446,7 @@ The full report set is in `reports/2026-06-12-ccscollects-deep-dive/`,
 `reports/2026-06-16-ccscollects-rebirth/`, and
 `reports/2026-06-17-ccscollects-followups/`. These are the agent's
 internal investigation notes; they are not republished in full because
-they contain TMBC-specific detail and the affected cardholder's
+they contain council-specific detail and the affected cardholder's
 postcode-level data that this case study deliberately omits.
 
 The public record is sufficient to verify every claim in this case

@@ -41,6 +41,7 @@ The two repos serve different audiences and are intentionally separate:
 
 | Case | Period | Outcome |
 |------|--------|---------|
+| [`agent-validate-build-2026-07.md`](./agent-validate-build-2026-07.md) | July 2026 | Single-binary Go CLI for the agent-identity-kit schema shipped v0.1.1 in ~1h 40m; M3 verifier caught 6 real defects before release. |
 | [`ccscollects-phishing-2026-06.md`](./ccscollects-phishing-2026-06.md) | June 2026 | Live UK phishing site taken down; smishing pipeline paused; domain on registrar `client hold` |
 
 ## Related

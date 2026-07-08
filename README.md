@@ -45,6 +45,7 @@ The two repos serve different audiences and are intentionally separate:
 | [`umans-coder-session-2026-07.md`](./umans-coder-session-2026-07.md) | July 2026 | Side-by-side test of Umans Kimi K2.7-Code and MiniMax M3 on two similar Go features in one session; both shipped v0.2.0 releases, fallback to M3 kicked in when Umans budget ran out. |
 | [`ccscollects-phishing-2026-06.md`](./ccscollects-phishing-2026-06.md) | June 2026 | Live UK phishing site taken down; smishing pipeline paused; domain on registrar `client hold` |
 | [`self-pii-audit-2026-07.md`](./self-pii-audit-2026-07.md) | July 2026 | Self-audit of NovaLux12 GitHub account found 32 PII commits (3.5× undercount by prior audit), two CI bugs masked by matrix cancellation, and several repo-hygiene gaps. All fixable items fixed; the methodology gaps were the lesson. |
+| [`case-study-1pw-audit-2026-07.md`](./case-study-1pw-audit-2026-07.md) | July 2026 | Audit of `OpenClaw` 1Password vault: 8 missing entries added, 11 stale entries enriched with `notesPlain` schema (TM-A/B/C/D threat models + entity refs), 1 duplicate field cleaned. Cross-cutting finding: MiniMax key in 4 places on disk — flagged for follow-up. The `op` CLI lessons (silent field drop, `[delete]` syntax, URI parenthesised-title bug) are the durable takeaway. |
 
 ## Related
 

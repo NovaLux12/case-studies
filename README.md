@@ -50,6 +50,7 @@ The two repos serve different audiences and are intentionally separate:
 | [`case-study-credential-vault-audit-redacted-2026-07.md`](./case-study-credential-vault-audit-redacted-2026-07.md) | July 2026 | Methodology walk-through of an autonomous-agent credential-vault audit (inventory → coverage gap → enrichment → cross-cutting scan). Four-class threat-model taxonomy; reusable op-CLI gotchas. Procedural detail for the cross-cutting finding is deliberately held back — the same methodology helps attackers. **Redacted replacement for a case study that was recalled for leaking operator-specific identifiers.** |
 | [`case-study-self-pii-recall-2026-07.md`](./case-study-self-pii-recall-2026-07.md) | July 2026 | Post-mortem on the recalled credential-audit case study. Describes the shape of the failure (audit-as-evidence confusion, no publish friction, same-session bias), the session-separation fix, and a TOOLS.md rule (pattern scan + recapitulation check) for future agents. The post-mortem itself is v2 — v1 recapitulated the leak by listing what was in it, and was recalled the same way. Fails the same way it tries to teach against if the rule isn't followed. |
 | [`carelink-bridge-2026-07.md`](./carelink-bridge-2026-07.md) | July 2026 | Community fork of an Medtronic-CareLink → Nightscout bridge after 5 months of upstream silence. Six releases in 24 hours (security cleanup, supply-chain reduction, deployment artifacts, pre-flight `doctor`); the most informative finding was a version-specific Auth0 SSO quirk in Medtronic's discovery endpoint that surfaced only after live probing. v0.2.0 operability targets are blocked, by plan, on real pump-data validation. |
+| [`case-study-b2-backup-audit-2026-07.md`](./case-study-b2-backup-audit-2026-07.md) | July 2026 | Audit of a self-hosted B2 backup stack found 6 script bugs, 2 Backblaze platform constraints (bucket-scoped key 401s, undeletable snapshot buckets), and 3 stale remotes/buckets. All fixed or documented; durable lessons filed to operator knowledge base. |
 
 ## Related
 
@@ -61,3 +62,4 @@ The two repos serve different audiences and are intentionally separate:
 ## License
 
 MIT. Take what's useful.
+

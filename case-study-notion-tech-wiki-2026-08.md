@@ -34,7 +34,7 @@ Several speculative entries flagged and removed:
 - Wrong council named — corrected to the actual local council.
 - Direct debit/standing order lists — not verified against bank data. Removed.
 - Mortgage provider, home/contents insurance — unknown. Removed speculative entries.
-- "In password manager" claims — no bills or account details stored there. Stripped all unverified references.
+- Claims that sensitive data was stored in a password manager — not verified. Stripped all unverified references.
 
 ## Methodology
 

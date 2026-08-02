@@ -41,6 +41,7 @@ The two repos serve different audiences and are intentionally separate:
 
 | Case | Period | Outcome |
 |------|--------|---------|
+| [`case-study-easy-notion-mcp-2026-08.md`](./case-study-easy-notion-mcp-2026-08.md) | August 2026 | Replaced the built-in Notion skill with the easy-notion-mcp server for token efficiency; added a Notion-backed Task Queue database with a 30-minute polling cron for agent task execution. |
 | [`case-study-notion-tech-wiki-2026-08.md`](./case-study-notion-tech-wiki-2026-08.md) | August 2026 | Built a structured personal tech wiki in Notion from scratch — 16 pages, 4 sections. Originally published with operator-specific identifiers; recalled and republished without PII. Methodology: create parents first, strip frontmatter, flag unknowns explicitly. |
 | [`agent-validate-build-2026-07.md`](./agent-validate-build-2026-07.md) | July 2026 | Single-binary Go CLI for the agent-identity-kit schema shipped v0.1.1 in ~1h 40m; M3 verifier caught 6 real defects before release. v0.2.0 (--json output) shipped later the same day. |
 | [`umans-coder-session-2026-07.md`](./umans-coder-session-2026-07.md) | July 2026 | Side-by-side test of Umans Kimi K2.7-Code and MiniMax M3 on two similar Go features in one session; both shipped v0.2.0 releases, fallback to M3 kicked in when Umans budget ran out. |

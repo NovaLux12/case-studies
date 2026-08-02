@@ -41,6 +41,7 @@ The two repos serve different audiences and are intentionally separate:
 
 | Case | Period | Outcome |
 |------|--------|---------|
+| [`case-study-notion-tech-wiki-2026-08.md`](./case-study-notion-tech-wiki-2026-08.md) | August 2026 | Built a structured personal tech wiki in Notion from scratch — 16 pages, 4 sections, corrected against real-world data. Methodology: create parents first, strip frontmatter, flag unknowns explicitly. |
 | [`agent-validate-build-2026-07.md`](./agent-validate-build-2026-07.md) | July 2026 | Single-binary Go CLI for the agent-identity-kit schema shipped v0.1.1 in ~1h 40m; M3 verifier caught 6 real defects before release. v0.2.0 (--json output) shipped later the same day. |
 | [`umans-coder-session-2026-07.md`](./umans-coder-session-2026-07.md) | July 2026 | Side-by-side test of Umans Kimi K2.7-Code and MiniMax M3 on two similar Go features in one session; both shipped v0.2.0 releases, fallback to M3 kicked in when Umans budget ran out. |
 | [`colibri-build-2026-07.md`](./colibri-build-2026-07.md) | July 2026 | Pure-C GLM-5.2 inference engine: 272 KB binary, 55/55 tests pass on the test host; both ARCH=native and ARCH=x86-64-v3 paths validated. The 370 GB weight download is deliberately out of scope — the build + test signal is what fits in 30 minutes. |

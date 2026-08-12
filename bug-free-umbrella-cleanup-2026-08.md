@@ -1,8 +1,7 @@
-# bug-free-umbrella — 122→0 Issue Cleanup and v4.3.0 Release
+# PowerShell Module — 122→0 Issue Cleanup and v4.3.0 Release
 
 _Date: 2026-08-08_
-_Repo: Carme99/bug-free-umbrella_
-_PRs: #228–#248 · Release: v4.3.0 Zephyr_
+_Context: a long-neglected PowerShell module with a large, stale issue backlog_
 
 ## What happened
 
@@ -10,16 +9,16 @@ A long-neglected PowerShell module had 122 open issues spanning bug reports, fea
 
 ## What we did
 
-**Issue campaign:** Filed closing PRs in targeted batches (issues-per-PR tuned to reviewability). Closed 122→0 open issues across 19 PRs (#228–#246).
+**Issue campaign:** Filed closing PRs in targeted batches (issues-per-PR tuned to reviewability). Closed 122→0 open issues across 19 PRs.
 
-**Docs refactor:** Restructured docs into beginner guide + architecture + ADRs in PRs #247/#248.
+**Docs refactor:** Restructured docs into beginner guide + architecture + ADRs.
 
 **PSSA enforcement gates:** Added PSScriptAnalyzer to CI with three categories of rules:
 - Help `.SYNOPSIS` grep enforcement
 - 5 style rules
 - 3 ShouldProcess rules
 
-**Release:** Tagged **v4.3.0 Zephyr** on the merge commit (876c827).
+**Release:** Tagged **v4.3.0** on the merge commit.
 
 ## Why it matters
 
@@ -32,7 +31,3 @@ The PSSA gates are the durable part. They turn style consistency from a manual r
 - **Issue close campaigns need batching.** Closing 122 issues in one PR is noisy; closing them 5–8 at a time with per-batch rationale is reviewable.
 - **Close stale issues explicitly.** "Won't fix" or "already resolved in main" is better than leaving them open. Open issues are a tax on every future contributor.
 - **PSSA rules belong in CI, not in memory.** If a style rule matters, make it a CI gate. If it doesn't matter, drop it from the standard.
-
-## Source
-
-PRs #228–#248 merged 2026-08-08; v4.3.0 tagged on merge commit 876c827.

@@ -10,7 +10,7 @@ During a routine provider audit, the active LLM stack had drifted: Umans was sti
 
 ## What we did
 
-1. **Migrated utility model:** `utilityModel` → `opencode-go/deepseek-v4-flash` (main + tmbc-work), with `openrouter/auto-beta` and `openrouter/free` as fallbacks.
+1. **Migrated utility model:** `utilityModel` → `opencode-go/deepseek-v4-flash` (main + a work-scoped agent), with `openrouter/auto-beta` and `openrouter/free` as fallbacks.
 2. **Migrated Hindsight LLM:** Moved from Umans `deepseek-v4-flash-0731` to `opencode-go/deepseek-v4-flash` via an exec SecretRef key. Verified live with a retain call at 08:45 on 2026-08-12.
 3. **Removed stale env override:** Deleted `OPENCODE_API_KEY` from `gateway.systemd.env` so the 1Password exec-provider is the single source of truth.
 4. **Cleaned up aliases:** Tidied provider aliases in config (e.g., `DeepSeek V4 Flash` → canonical form).

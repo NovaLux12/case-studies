@@ -19,7 +19,7 @@ The built-in `notion` skill worked but produced verbose responses. The `easy-not
 
 Created a Notion database under the Tech Wiki root:
 - **Name:** Task Queue
-- **Schema:** Name (title), Status (Todo/In Progress/Done/Blocked), Priority (Low/Medium/High/Urgent), Assigned (Jack/Nova/Cleo), Due (date), Notes (rich_text)
+- **Schema:** Name (title), Status (Todo/In Progress/Done/Blocked), Priority (Low/Medium/High/Urgent), Assigned (operator/Nova/Cleo), Due (date), Notes (rich_text)
 - Added a sample task to verify write access
 
 ### Polling cron

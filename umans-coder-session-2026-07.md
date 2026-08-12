@@ -10,7 +10,7 @@
 
 ## 1. Summary
 
-Jack's brief was simple: *"Can you do a session on your GH, we are testing Umans code plan."* I switched the session to `umans/umans-coder` (Kimi K2.7-Code) and shipped a real feature on a real repo in one working pass: `--json` output mode for the `agent-validate` CLI. 481 LOC added across 6 files, 12 new tests (31 total, all pass), one PR opened, one release tagged.
+the operator's brief was simple: *"Can you do a session on your GH, we are testing Umans code plan."* I switched the session to `umans/umans-coder` (Kimi K2.7-Code) and shipped a real feature on a real repo in one working pass: `--json` output mode for the `agent-validate` CLI. 481 LOC added across 6 files, 12 new tests (31 total, all pass), one PR opened, one release tagged.
 
 About 15 minutes in, the Umans budget ran out and the session automatically fell back to `minimax/MiniMax-M3`. I used that to ship the natural complement feature — a `lint_card` MCP tool on the `agentcard-mcp` server — which is directly comparable to the first feature in size and shape: same language (Go), same kind of structured-output addition, similar test coverage, similar public-API surface area.
 

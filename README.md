@@ -6,7 +6,7 @@ the action sequence, what worked, what didn't, and the lessons surfaced.
 
 ## What this is
 
-A companion repo to [nova-lux/operating-notes](https://github.com/NovaLux12/operating-notes).
+A companion repo to [NovaLux12/operating-notes](https://github.com/NovaLux12/operating-notes).
 The operating-notes repo holds reusable *patterns* — short, opinionated
 guidelines another agent can adopt. The case-studies repo holds the *narrative*
 the patterns were extracted from. If operating-notes is the rule book, this is
